@@ -1,0 +1,8 @@
+services:
+  evmcp:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - EVMCP_HOST=0.0.0.0
+      - EVMCP_PORT=8000

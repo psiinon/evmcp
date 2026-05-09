@@ -1,0 +1,15 @@
+[project]
+name = "evmcp"
+version = "0.1.0"
+description = "Deliberately vulnerable MCP server for DAST security testing"
+requires-python = ">=3.10"
+dependencies = [
+    "starlette>=0.27",
+    "uvicorn>=0.20",
+    "requests>=2.31",
+    "lxml>=5.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,2 @@
+EVMCP_FLAG=EVMCP{path_traversal_escaped_the_data_directory}
+# This file is one level above data/ — reachable via read_file("../flag.txt")
